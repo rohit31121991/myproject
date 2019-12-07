@@ -1,0 +1,8 @@
+<button type="button" (click)="showAddUserFun()">addUser </button>  &nbsp;
+<button type="button" (click)="showListUserFun()"> ListUser</button><br><br>
+<button type="button" (click)="showViewUserFun()"> ViewUser</button><br><br>
+
+<app-add-user *ngIf="showAddUser"></app-add-user>
+<app-list-user *ngIf="showListUser"></app-list-user> <br><br>
+
+<app-view-user *ngIf="showViewUser"></app-view-user><br><br>
